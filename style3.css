@@ -8,7 +8,7 @@ body{
     display: flex;
     flex-direction: column;
     height: 100vh;
-    background-color: black;
+    background-color: rgb(135, 46, 153);
 }
 
 header{
@@ -50,13 +50,13 @@ nav{
     justify-content: center;
     align-items: center;
     position: relative;
-    color: rgb(142, 255, 66);
+    color: rgb(119, 235, 66);
 }
 
 .texto2{
     font-size: 15px;
     position: relative;
-    color: gray;
+    color: rgb(189, 189, 189);
 }
 
 article{
@@ -235,6 +235,7 @@ footer{
         flex-direction: row;
         justify-content: center;
         align-items: center;
+        aspect-ratio: 6/12;
     }
 
     article{

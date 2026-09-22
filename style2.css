@@ -8,7 +8,7 @@ body{
     display: flex;
     flex-direction: column;
     height: 100vh;
-    background-color: black;
+    background-color: rgb(241, 97, 210);
 }
 
 header{
@@ -50,13 +50,13 @@ nav{
     justify-content: center;
     align-items: center;
     position: relative;
-    color: rgb(142, 255, 66);
+    color: rgb(255, 255, 84);
 }
 
 .texto2{
     font-size: 15px;
     position: relative;
-    color: gray;
+    color: rgb(255, 255, 255);
 }
 
 article{
