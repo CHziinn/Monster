@@ -1,0 +1,257 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    background-color: black;
+}
+
+header{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 10vh;
+    width: 95vw;
+}
+
+.cima{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; 
+}
+
+.pai_meio{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 80vh;
+    width: 100vw;
+}
+
+nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+    width: 40vw;
+    position: relative;
+}
+
+.texto1{
+    font-size: 25px;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    color: rgb(255, 255, 255);
+}
+
+b{
+    color: greenyellow;
+}
+
+.texto2{
+    font-size: 15px;
+    position: relative;
+    color: gray;
+}
+
+article{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+    width: 60vw;
+    position: relative;
+}
+
+.fundo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.lata{
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    position: absolute;
+    z-index: 10;
+}
+
+aside{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    height: 80vh;
+    width: 40vw;
+}
+
+.logo{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+footer{
+    display: flex;
+    flex-direction: column;
+    height: 10vh;
+    width: 100vw;
+    position: relative;
+}
+
+.setas{
+    font-size: 50px;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+}
+
+.texto3{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 13px;
+    color: white;
+}
+
+@media (max-width:1024px ) {
+    body{
+        display: flex;
+        flex-direction: row;
+    }
+
+    .coluna{
+        display: flex;
+        flex-direction: column;
+        position: relative;
+    }
+
+    header{
+        display: flex;
+        flex-direction: column;
+        height: 10vh;
+        width: 100vw;
+    }
+
+    .cima{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
+        margin: 16px;
+        width: 100vw;
+        aspect-ratio: 64/4;
+    }
+
+    footer{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        height: 10vh;
+        width: 100vw;
+    }
+
+    .setas{
+        display: flex;
+        justify-content: first baseline;
+        justify-content: space-around;
+        font-size: 50px;
+        color: white;
+    }
+
+    .texto3{
+        white-space: nowrap;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        font-size: 12px;
+        color: white;
+    }
+
+    .pai_meio{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        height: 80vh;
+        width: 100vw;
+    }
+
+    nav{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        height: 90vh;
+        width: 50vw;
+        position: relative;
+    }
+
+    .texto1{
+        display: flex;
+        flex-direction: row;
+        font-size: 20px;
+        justify-content: start;
+        align-items: center;
+        position: relative;
+        left: 40px;
+        color: rgb(255, 255, 255);
+    }
+
+    .texto2{
+        white-space: nowrap;
+        justify-content: start;
+        align-items: center;
+        font-size: 15px;
+        position: relative;
+        left: -100px;
+        top: 85px;
+        color: gray;
+    }
+
+    .fundo{
+        display: none;
+    }
+
+    .lata{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+
+    article{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        height: 90vh;
+        width: 50vw;
+    }
+
+    aside{
+        display: none;
+        flex-direction: row;
+    }
+    
+}
