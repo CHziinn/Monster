@@ -50,11 +50,7 @@ nav{
     justify-content: center;
     align-items: center;
     position: relative;
-    color: rgb(255, 255, 255);
-}
-
-b{
-    color: greenyellow;
+    color: rgb(142, 255, 66);
 }
 
 .texto2{
@@ -215,7 +211,7 @@ footer{
         align-items: center;
         position: relative;
         left: 40px;
-        color: rgb(255, 255, 255);
+        color: rgb(123, 255, 83);
     }
 
     .texto2{
